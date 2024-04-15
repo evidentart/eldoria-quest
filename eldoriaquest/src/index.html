@@ -1,54 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <title>RPG - Dungeon Crawler</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  
   <!-- Medieval Chateau by Alexander Nakarada (CreatorChords) | https://creatorchords.com
   Music promoted by https://www.free-stock-music.com
   Creative Commons / Attribution 4.0 International (CC BY 4.0)
   Licensed under: https://creativecommons.org/licenses/by/4.0/ -->
-  <audio id="backgroundMusic" autoplay loop>
+  <audio id="backgroundMusic" loop>
     <source src="sound/backgroundM.mp3" type="audio/mpeg">
   </audio>
-
 <div id="game">
   <div id="startScreen" style="display: flex; align-items: center; justify-content: center; height: 100vh;">
     <button id="startButton">Start Adventure</button>
   </div>
-
   <div id="mainContent" style="display: none;">
     <div id="stats">
       <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
       <span class="stat">Health: <strong><span id="healthText">100</span></strong></span>
       <span class="stat">Armor: <strong><span id="armorText">0</span></strong></span>
       <span class="stat">Gold: <strong><span id="goldText">50</span></strong></span>
-      <span class="stat">Weapon: <strong><span id="weaponText">Sword</span></strong></span>
+      <span class="stat">Weapon: <strong><span id="weaponText">Stick | Power: 5</span></strong></span>
     </div>
     <div id="text">Welcome, traveler, to the brink of adventure and peril.
       <p> These ancient walls lies the town of Eldoria, a bustling hub guarded fiercely by the King's own. To enter, one must prove their worth or remain forever outside its storied gates. </p>
       The guard at the gate has spotted you... What will you do?
-      </div>
-    <div id="controls">
-      <button id="button1">Talk</button>
-      <button id="button2">Attack!</button>
-      <button id="button3">Go to Crossroads</button>
     </div>
-
+    <div id="controls">
+      <button id="button1">Talk to Guard</button>
+      <button id="button2">Blacksmith</button>
+      <button id="button3">Dungeon Entrance</button>
+    </div>
     <div id="monsterStats">
       <span class="stat">Monster Name: <strong><span id="monsterName"></span></strong></span>
       <span class="stat">Health: <strong><span id="monsterHealth"></span></strong></span>
     </div>
   </div>
-
 </div>
-
+<script src="game-setup.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
