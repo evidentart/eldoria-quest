@@ -2,7 +2,7 @@ body {
   font-family: 'Cinzel', serif; /* Sets the default font for the body */
   background-color: black;
   color: white;
-  background-image: url('images/entranceE.png');
+  background-image: url('entranceE.png');
   border-radius: 8px; /* Adds rounded corners to the buttons */
 }
 /* Style for the Start Game button and its container */
@@ -61,7 +61,7 @@ body {
 }
 
 #text {
-  background-image: url('images/ptext.jpg');
+  background-image: url('ptext.jpg');
   background-color: #f4e9dc; /* Fallback color */
   color: #3a3022; /* Dark brown text color */
   font-family: 'Cinzel', serif; /* Cinzel font */
