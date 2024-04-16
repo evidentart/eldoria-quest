@@ -1,6 +1,7 @@
 # EldoriaQuest
 
 Welcome to the repository for EldoriaQuest, an in-development interactive RPG platform that offers a dynamic storytelling experience with user-driven choices and many more.
+Due to the requirements of GitHub Pages, all folders had to be removed and files placed in one location to ensure proper hosting. While this may make the repository appear disorganized, rest assured that all necessary files are present for the project to function correctly
 
 ## About The Project
 
