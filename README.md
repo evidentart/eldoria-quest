@@ -1,6 +1,6 @@
 # EldoriaQuest
 
-Welcome to the repository for EldoriaQuest, an in-development interactive RPG platform that offers a dynamic storytelling experience with user-driven choices and immersive audio-visual elements.
+Welcome to the repository for EldoriaQuest, an in-development interactive RPG platform that offers a dynamic storytelling experience with user-driven choices and many more.
 
 ## About The Project
 
@@ -8,10 +8,9 @@ EldoriaQuest is designed to transport players into the ancient town of Eldoria, 
 
 ### Features
 
-- **Dynamic Storytelling**: The narrative changes based on player decisions, providing a unique journey for every gamer.
-- **Immersive Audio**: Background music and sound effects that engage players throughout their adventure.
-- **Visual Enhancements**: High-quality images and animations that set the scene and reflect the game's medieval fantasy theme.
-- **Interactive Dialogue**: Players can interact with characters through complex dialogue trees that affect game outcomes.
+- **Dynamic Storytelling**: Allows users to choose different narrative paths, demonstrating basic interactive storytelling.
+- **Visual Enhancements**: Improved the overall layout and visual presentation to make the interface cleaner and more user-friendly.
+- **Interactive Dialogue**: Users can engage with simple dialogue choices that directly affect the outcome of the story.
 
 ## Current Status
 
